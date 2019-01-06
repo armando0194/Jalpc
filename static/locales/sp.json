@@ -1,0 +1,57 @@
+{
+  "website":{
+    "title": "Jack's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "Acerca",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "career": "Experiencia",
+    "blog": "Blog",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "Acerca de mi",
+    "des": "I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+  },
+  "skills":{
+    "my_skills": "Mis Habilidades"
+  },
+  "projects":{
+    "my_projects": "Mis Proyectos",
+    "jalpc": "This project is my project. I use javescript to get repo's information all my repos have only one request.",
+    "cpython": "This project is other's project. I use another request to get repo's information.",
+    "familycode": "This is another project."
+  },
+  "career":{
+    "my_career": "Experiencia",
+    "research_assitant": "The University of Texas at El Paso",
+    "research_assitant_desc": "Investigó la ciberinfraestructura basada en la web semántica para facilitar la participación de la comunidad, la definicion de problemas y, en última instancia, la negociación del conocimiento científico.",
+    "research_assitant_date": "Agosto 2017 – Presente",
+    "research_assitant_job": "Asistente de Investigación",
+    
+    "research": "National Science Foundation Scholar ",
+    "research_desc": "Trabaje con un equipo interdisciplinario y binacional en el desarrollo de una solución de ciudades inteligentes para inundaciones.",
+    "research_date": "Junio 2018 – Julio 2018",
+    "research_job": "Investigador",
+    
+    "programmer": "NASA/Leidos Storefront",
+    "programmer_desc": "Desarrollé, diseñé y le di mantenimiento a proyectos que se utilizan en varias unidades de la organizacion bao el contrato de la NASA/FDOC.",
+    "programmer_date": "Agosto 2015 – Febrero 2018",
+    "programmer_job": "Programador",
+    
+    "college": "Graduacion",
+    "college_desc": "En Diciembre 2018 me gradue de la universidad",
+    "college_date": "Diciembre 2018",
+    "college_job": "Estudiante"
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}

@@ -14,7 +14,9 @@ permalink: /
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+        <a class="navbar-brand" href="#page-top" id="i18_title">
+          <img height="30" width="30" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSItNDEgMCA1MTIgNTEyIiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4Ij48cGF0aCBkPSJtMzc1LjE5MTQwNiAxMDYuNTg5ODQ0Yy0zMC4zMjgxMjUgMC01NSAyNC42NzU3ODEtNTUgNTV2NDAuNzQyMTg3YzAgMTAuNzY1NjI1LTguNzU3ODEyIDE5LjUyMzQzOC0xOS41MjM0MzcgMTkuNTIzNDM4aC0xMC41MjM0Mzh2LTE0Ni44MDg1OTRjMC00MS4zNzg5MDYtMzMuNjY3OTY5LTc1LjA0Njg3NS03NS4wNDY4NzUtNzUuMDQ2ODc1LTQxLjM4MjgxMiAwLTc1LjA1MDc4MSAzMy42Njc5NjktNzUuMDUwNzgxIDc1LjA0Njg3NXYxNDYuODA4NTk0aC0xMC41MjM0MzdjLTEwLjc2NTYyNiAwLTE5LjUyMzQzOC04Ljc1NzgxMy0xOS41MjM0MzgtMTkuNTIzNDM4di00MC43NDIxODdjMC0zMC4zMjQyMTktMjQuNjcxODc1LTU1LTU1LTU1cy01NSAyNC42NzU3ODEtNTUgNTV2NDAuNzQyMTg3YzAgNzEuNDE3OTY5IDU4LjEwNTQ2OSAxMjkuNTIzNDM4IDEyOS41MjM0MzggMTI5LjUyMzQzOGgxMC41MjM0Mzd2MTgwLjE0NDUzMWgxNTAuMDk3NjU2di0xODAuMTQ0NTMxaDEwLjUyMzQzOGM3MS40MTc5NjkgMCAxMjkuNTIzNDM3LTU4LjEwMTU2MyAxMjkuNTIzNDM3LTEyOS41MjM0Mzh2LTQwLjc0MjE4N2MwLTMwLjMyNDIxOS0yNC42NzE4NzUtNTUtNTUtNTV6bS0yNDUuNjY3OTY4IDE5NS4yNjU2MjVjLTU0Ljg3NSAwLTk5LjUyMzQzOC00NC42NDQ1MzEtOTkuNTIzNDM4LTk5LjUyMzQzOHYtNDAuNzQyMTg3YzAtMTMuNzg1MTU2IDExLjIxNDg0NC0yNSAyNS0yNXMyNSAxMS4yMTQ4NDQgMjUgMjV2NDAuNzQyMTg3YzAgMjcuMzA4NTk0IDIyLjIxODc1IDQ5LjUyMzQzOCA0OS41MjM0MzggNDkuNTIzNDM4aDEwLjUyMzQzN3Y1MHptMTMwLjYyMTA5MyAxODAuMTQ0NTMxaC05MC4wOTc2NTZ2LTQwNi45NTMxMjVjMC0yNC44Mzk4NDQgMjAuMjEwOTM3LTQ1LjA0Njg3NSA0NS4wNTA3ODEtNDUuMDQ2ODc1IDI0LjgzNTkzOCAwIDQ1LjA0Njg3NSAyMC4yMDcwMzEgNDUuMDQ2ODc1IDQ1LjA0Njg3NXptMTQwLjA0Njg3NS0yNzkuNjY3OTY5YzAgNTQuODc4OTA3LTQ0LjY0NDUzMSA5OS41MjM0MzgtOTkuNTIzNDM3IDk5LjUyMzQzOGgtMTAuNTIzNDM4di01MGgxMC41MjM0MzhjMjcuMzA4NTkzIDAgNDkuNTIzNDM3LTIyLjIxNDg0NCA0OS41MjM0MzctNDkuNTIzNDM4di00MC43NDIxODdjMC0xMy43ODUxNTYgMTEuMjE0ODQ0LTI1IDI1LTI1czI1IDExLjIxNDg0NCAyNSAyNXptMCAwIiBmaWxsPSIjRkZGRkZGIi8+PC9zdmc+Cg==" />
+        </a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right" id="i18_navbar">
@@ -41,9 +43,6 @@ permalink: /
     </div>
   </nav>
 </div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
 
 {% for section in site.data.landing %}
 {% assign loopindex = forloop.index | modulo: 2 %}
